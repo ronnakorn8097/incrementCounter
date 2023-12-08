@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Chakra+Petch:ital,wght@0,300;0,400;1,300&family=Montserrat:ital,wght@1,200&family=Noto+Sans:wght@200;400;600&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&family=Prompt:wght@100;400;500&family=Roboto:wght@100;300;400;500&family=Rubik+Bubbles&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    color: white;
+    background-color: #333;
+    overflow: hidden;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.counter-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 50px;
+}
+
+.counter{
+    font-size: 50px;
+    margin-top: 10px;
+}
